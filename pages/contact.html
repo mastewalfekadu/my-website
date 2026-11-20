@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethiopian Coffee - Contact</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>Questions about Ethiopian coffee? Send us a message.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="regions.html">Coffee Regions</a></li>
+      <li><a href="ceremony.html">The Coffee Ceremony</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Send a Message</h2>
+      <p>Fields marked with * are required.</p>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Full name *</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email address *</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="region">Favourite coffee region</label><br>
+          <select id="region" name="region">
+            <option value="">-- Choose a region --</option>
+            <option value="yirgacheffe">Yirgacheffe</option>
+            <option value="sidama">Sidama</option>
+            <option value="harar">Harar</option>
+            <option value="jimma">Jimma</option>
+            <option value="guji">Guji</option>
+          </select>
+        </p>
+        <fieldset>
+          <legend>How do you drink your coffee?</legend>
+          <input type="radio" id="black" name="drink" value="black">
+          <label for="black">Black</label><br>
+          <input type="radio" id="sugar" name="drink" value="sugar">
+          <label for="sugar">With sugar</label><br>
+          <input type="radio" id="milk" name="drink" value="milk">
+          <label for="milk">With milk</label>
+        </fieldset>
+        <p>
+          <label for="message">Message *</label><br>
+          <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          <label for="newsletter">Send me news about Ethiopian coffee</label>
+        </p>
+        <p>
+          <button type="submit">Send Message</button>
+          <button type="reset">Clear Form</button>
+        </p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Other Ways to Reach Us</h2>
+      <address>
+        Email: <a href="mailto:mastewalfekadu80@gmail.com">mastewalfekadu80@gmail.com</a><br>
+        Addis Ababa, Ethiopia
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ethiopian Coffee. CoSc 3081 Web Programming I - Assignment 1.</p>
+    <p>Email: <a href="mailto:mastewalfekadu80@gmail.com">mastewalfekadu80@gmail.com</a></p>
+  </footer>
+</body>
+</html>
